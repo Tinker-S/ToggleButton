@@ -26,7 +26,7 @@ repositories {
 * Add dependencies
 
 ```
-compile 'com.awesomego.togglebutton:library:1.0.0'
+compile 'com.awesomego.togglebutton:library:1.0.1'
 ```
 
 * Use in your layout
