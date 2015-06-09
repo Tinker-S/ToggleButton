@@ -38,7 +38,7 @@ public class ToggleButton extends View {
     /**
      * 灰色带颜色
      */
-    private int offColor = Color.parseColor("#ffffff");
+    private int offColor = Color.parseColor("#dadbda");
     /**
      * 手柄颜色
      */
@@ -223,7 +223,7 @@ public class ToggleButton extends View {
             widthMeasureSpec = MeasureSpec.makeMeasureSpec(widthSize, MeasureSpec.EXACTLY);
         }
 
-        if (heightMode == MeasureSpec.UNSPECIFIED || heightSize == MeasureSpec.AT_MOST) {
+        if (heightMode == MeasureSpec.UNSPECIFIED || heightMode == MeasureSpec.AT_MOST) {
             heightSize = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 30, r.getDisplayMetrics());
             heightMeasureSpec = MeasureSpec.makeMeasureSpec(heightSize, MeasureSpec.EXACTLY);
         }

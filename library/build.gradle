@@ -29,7 +29,7 @@ android {
 def siteUrl = 'https://github.com/Tinker-S/ToggleButton'
 def gitUrl = 'https://github.com/Tinker-S/ToggleButton'
 group = "com.awesomego.togglebutton"
-version = "1.0.0"
+version = "1.0.1"
 
 install {
     repositories.mavenInstaller {
