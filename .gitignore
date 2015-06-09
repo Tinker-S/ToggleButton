@@ -4,16 +4,9 @@
 bin/
 gen/
 
-# vim
-
-*~
-*.sw*
-
-# git
-
-*.orig
-
 build/
 .gradle/
+.idea/
 
 local.properties
+*.iml
